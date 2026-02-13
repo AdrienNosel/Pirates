@@ -18,4 +18,7 @@ public class Plateau {
         de2.lancer();
         return de1.getValeur() + de2.getValeur();
     }
+    public int getDes () {
+    	return de1.getValeur() + de2.getValeur();
+    }
 }

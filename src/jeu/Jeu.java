@@ -8,6 +8,10 @@ public class Jeu {
     public Jeu() {
         this.plateau = new Plateau();
     }
+    
+    public Joueur getJoueurCourant() {
+        return joueurs[indexJoueurCourant];
+    }
 
     public void initJoueurs(NomPirate premierChoix) {
         if (premierChoix == NomPirate.JACK_LE_BORGNE) {
@@ -20,11 +24,12 @@ public class Jeu {
         }
     }
 
-    public void jouerUnTour() {
-        Joueur joueur = joueurs[indexJoueurCourant];
+    public int jouerUnTour() {
+        Joueur joueur = getJoueurCourant();
         int deplacement = plateau.lancerDes();
         joueur.deplacer(deplacement);
         indexJoueurCourant = (indexJoueurCourant + 1) % 2;
+        return deplacement;
     }
 
     public boolean estFini() {
