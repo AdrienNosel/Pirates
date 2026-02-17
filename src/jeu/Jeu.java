@@ -38,4 +38,16 @@ public class Jeu {
         		joueurs[0].getPion().getPosition() == 29 || 
         		joueurs[1].getPion().getPosition() == 29;
     }
+    public Joueur getVainqueur() {
+        if (joueurs[0].getPion().getPosition() == 29) {
+            return joueurs[0];
+        } else if (joueurs[1].getPion().getPosition() == 29) {
+            return joueurs[1];
+        }
+        
+        if (joueurs[0].estElimine()) return joueurs[1];
+        if (joueurs[1].estElimine()) return joueurs[0];
+
+        return null;
+    }
 }

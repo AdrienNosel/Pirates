@@ -17,7 +17,7 @@ public class Joueur {
     	return nom; 
     }
     public Pion getPion() { 
-    	return pion; 
+    	return pion;
     }
     public int getPointsDeVie() { 
     	return pointsDeVie; 
@@ -29,7 +29,6 @@ public class Joueur {
         int posActuelle = pion.getPosition();
         int cible = posActuelle + deplacement;
         
-        // Rebond si >30
         if (cible > 29) {
             int depassement = cible - 29;
             cible = 29 - depassement;
