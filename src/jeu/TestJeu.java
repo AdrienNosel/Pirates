@@ -14,13 +14,14 @@ public class TestJeu {
         
         while (!partie.estFini()) {
             Joueur joueurcourant = partie.getJoueurCourant();
-            int posDepart = joueurcourant.getPion().getPosition() + 1;
+            
+            ihm.attendreAppuiTouche();
 
+            int posDepart = joueurcourant.getPion().getPosition() + 1;
             int deplacement = partie.jouerUnTour();
             int posArrivee = joueurcourant.getPion().getPosition() + 1;
             
             ihm.afficherTour(tour, joueurcourant, posDepart, deplacement, posArrivee);
-            
             tour++;
         }
         
