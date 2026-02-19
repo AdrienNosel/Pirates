@@ -17,7 +17,7 @@ public class ConsoleIhm implements Ihm {
 
     @Override
     public NomPirate choisirPremierJoueur() {
-        System.out.println("Qui doit commencer ?\n1. JACK_LE_BORGNE\n2. BILL_JAMBE_DE_BOIS");
+        System.out.println("Qui doit commencer ?\n1. JACK_LE_BORGNE♟️🔴\n2. BILL_JAMBE_DE_BOIS♟️🔵️");
         int choix = scanner.nextInt();
         scanner.nextLine();
         return (choix == 1) ? NomPirate.JACK_LE_BORGNE : NomPirate.BILL_JAMBE_DE_BOIS;
@@ -36,7 +36,7 @@ public class ConsoleIhm implements Ihm {
     public void afficherVictoire(Joueur vainqueur) {
         System.out.println("\n!!! LA PARTIE EST TERMINÉE !!!");
         if (vainqueur != null) {
-            System.out.println(vainqueur.getNom() + " a gagné la partie.");
+            System.out.println(vainqueur.getNom() + " a gagné la partie. 🛶");
         } else {
             System.out.println("Match nul !");
         }
@@ -51,7 +51,7 @@ public class ConsoleIhm implements Ihm {
     public void afficherStatutJoueur(Joueur j) {
         String coeurs = "";
         for (int i = 0; i < 5; i++) {
-            coeurs += (i < j.getPointsDeVie()) ? "❤️ " : "🖤 ";
+            coeurs += (i < j.getPointsDeVie()) ? "️❤️ " : "🖤 ";
         }
         System.out.println("[STATUT] " + j.getNom() + " : " + coeurs + " (" + j.getPointsDeVie() + "/5)");
     }
