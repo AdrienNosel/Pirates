@@ -25,10 +25,28 @@ public class Jeu {
     }
 
     public int jouerUnTour() {
+    	//Init
         Joueur joueur = getJoueurCourant();
-        int deplacement = plateau.lancerDes();
+        int deplacement = plateau.lancerDes(joueur.aPrime());
+        
+        //Gestion des etats du joueur
+        if (joueur.aPrime()) {
+            joueur.setAPrime(false);
+        }
+        if (joueur.isIvre()) {
+            deplacement = -deplacement; 
+            joueur.setIvre(false);     
+        }
+        //Deplacement
         joueur.deplacer(deplacement);
+
+        //Consequence du deplacement
+        Case caseArrivee = plateau.getCase(joueur.getPion().getPosition());
+        caseArrivee.appliquerEffet(joueur);
+
+        //Init tour suivant
         indexJoueurCourant = (indexJoueurCourant + 1) % 2;
+
         return deplacement;
     }
 

@@ -1,12 +1,15 @@
 package jeu;
 
-public class Case { // Les cases "spé" hériteront de case plus tar
+public abstract class Case {
     private int numero;
     
     public Case (int numero) { 
-    	this.numero = numero; 
+        this.numero = numero; 
     }
-    //Pour les futurs cases spé
-    //public void Role (Joueur joeur) { 	
-    //}
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public abstract void appliquerEffet(Joueur joueur);
 }

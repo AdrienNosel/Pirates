@@ -6,4 +6,6 @@ public interface Ihm {
     NomPirate choisirPremierJoueur();
     void afficherTour(int numTour, Joueur j, int posDepart, int deplacement, int posArrivee);
     void afficherVictoire(Joueur vainqueur);
+    void afficherEvenement(String message);
+    void afficherStatutJoueur(Joueur j);
 }

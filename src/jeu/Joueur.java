@@ -5,6 +5,10 @@ public class Joueur {
     private CouleurPion couleur;
     private int pointsDeVie = 5;
     private Pion pion;
+    
+    private int toursAAttendre = 0;    // Pour le Kraken
+    private boolean aPrime = false;    // Pour le Pacte du Corsaire
+    private boolean estIvre = false;   // Pour le Rhum
 
     public Joueur(NomPirate nom, CouleurPion couleur) {
         this.nom = nom;
@@ -12,7 +16,7 @@ public class Joueur {
         this.pion = new Pion();
     }
     
-    //Getters--------------------------------------
+    //Getters-Setters--------------------------------------
     public NomPirate getNom() { 
     	return nom; 
     }
@@ -22,6 +26,27 @@ public class Joueur {
     public int getPointsDeVie() { 
     	return pointsDeVie; 
     }
+    
+    public int getToursAAttendre() { 
+    	return toursAAttendre; 
+    }
+    public void setToursAAttendre(int tours) { 
+    	this.toursAAttendre = tours; 
+    }
+
+    public boolean aPrime() { 
+    	return aPrime; 
+    }
+    public void setAPrime(boolean bonus) { 
+    	this.aPrime = bonus; 
+    }
+
+    public boolean isIvre() { 
+    	return estIvre; 
+    }
+    public void setIvre(boolean ivre) { 
+    	this.estIvre = ivre; 
+    }
     //---------------------------------------------
     
     //Methods--------------------------------------
@@ -29,6 +54,9 @@ public class Joueur {
         int posActuelle = pion.getPosition();
         int cible = posActuelle + deplacement;
         
+        if (cible < 0 ) {
+        	cible = 0;
+        }
         if (cible > 29) {
             int depassement = cible - 29;
             cible = 29 - depassement;
@@ -37,11 +65,10 @@ public class Joueur {
         pion.setPosition(cible);
     }
 
-    public void subirDegats(int degats) {
-        this.pointsDeVie -= degats;
-        if (this.pointsDeVie < 0) {
-        	this.pointsDeVie = 0;
-        }
+    public void modifierPointsDeVie(int delta) {
+        this.pointsDeVie += delta;
+        if (this.pointsDeVie < 0) this.pointsDeVie = 0;
+        if (this.pointsDeVie > 5) this.pointsDeVie = 5;
     }
 
     public boolean estElimine() {
@@ -49,3 +76,4 @@ public class Joueur {
     }
     //---------------------------------------------
 }
+

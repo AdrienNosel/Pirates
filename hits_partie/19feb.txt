@@ -1,0 +1,264 @@
+--- BIENVENUE DANS LE JEU DES PIRATES ---
+Qui doit commencer ?
+1. JACK_LE_BORGNE
+2. BILL_JAMBE_DE_BOIS
+1
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] JACK_LE_BORGNE : ❤️ ❤️ ❤️ ❤️ ❤️  (5/5)
+Tour n°1 - C'est au tour de : JACK_LE_BORGNE
+Il était sur la case 1
+et a fait 11 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 12
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] BILL_JAMBE_DE_BOIS : ❤️ ❤️ ❤️ ❤️ ❤️  (5/5)
+Tour n°2 - C'est au tour de : BILL_JAMBE_DE_BOIS
+Il était sur la case 1
+et a fait 11 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 12
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] JACK_LE_BORGNE : ❤️ ❤️ ❤️ ❤️ ❤️  (5/5)
+Tour n°3 - C'est au tour de : JACK_LE_BORGNE
+Il était sur la case 12
+et a fait 5 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 17
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] BILL_JAMBE_DE_BOIS : ❤️ ❤️ ❤️ ❤️ ❤️  (5/5)
+Tour n°4 - C'est au tour de : BILL_JAMBE_DE_BOIS
+Il était sur la case 12
+et a fait 4 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 16
+-------------------------------------------
+ > [SCÉNARIO] : BILL_JAMBE_DE_BOIS a trouvé du rhum ! Il se soigne (+1 PV) mais attention au prochain tour...
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] JACK_LE_BORGNE : ❤️ ❤️ ❤️ ❤️ ❤️  (5/5)
+Tour n°5 - C'est au tour de : JACK_LE_BORGNE
+Il était sur la case 17
+et a fait 6 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 23
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] BILL_JAMBE_DE_BOIS : ❤️ ❤️ ❤️ ❤️ ❤️  (5/5)
+ > [SCÉNARIO] : BILL_JAMBE_DE_BOIS titube... il va reculer ce tour-ci !
+Tour n°6 - C'est au tour de : BILL_JAMBE_DE_BOIS
+Il était sur la case 16
+et a fait -3 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 13
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] JACK_LE_BORGNE : ❤️ ❤️ ❤️ ❤️ ❤️  (5/5)
+Tour n°7 - C'est au tour de : JACK_LE_BORGNE
+Il était sur la case 23
+et a fait 11 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 26
+-------------------------------------------
+ > [SCÉNARIO] : JACK_LE_BORGNE a trouvé un accord secret pour son prochain tour ! (-2 PV)
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] BILL_JAMBE_DE_BOIS : ❤️ ❤️ ❤️ ❤️ ❤️  (5/5)
+Tour n°8 - C'est au tour de : BILL_JAMBE_DE_BOIS
+Il était sur la case 13
+et a fait 10 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 23
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] JACK_LE_BORGNE : ❤️ ❤️ ❤️ 🖤 🖤  (3/5)
+ > [SCÉNARIO] : JACK_LE_BORGNE a pactisé ! Il lancera 3 dés.
+Tour n°9 - C'est au tour de : JACK_LE_BORGNE
+Il était sur la case 26
+et a fait 11 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 23
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] BILL_JAMBE_DE_BOIS : ❤️ ❤️ ❤️ ❤️ ❤️  (5/5)
+Tour n°10 - C'est au tour de : BILL_JAMBE_DE_BOIS
+Il était sur la case 23
+et a fait 8 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 29
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] JACK_LE_BORGNE : ❤️ ❤️ ❤️ 🖤 🖤  (3/5)
+Tour n°11 - C'est au tour de : JACK_LE_BORGNE
+Il était sur la case 23
+et a fait 8 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 29
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] BILL_JAMBE_DE_BOIS : ❤️ ❤️ ❤️ ❤️ ❤️  (5/5)
+Tour n°12 - C'est au tour de : BILL_JAMBE_DE_BOIS
+Il était sur la case 29
+et a fait 12 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 19
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] JACK_LE_BORGNE : ❤️ ❤️ ❤️ 🖤 🖤  (3/5)
+Tour n°13 - C'est au tour de : JACK_LE_BORGNE
+Il était sur la case 29
+et a fait 3 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 28
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] BILL_JAMBE_DE_BOIS : ❤️ ❤️ ❤️ ❤️ ❤️  (5/5)
+Tour n°14 - C'est au tour de : BILL_JAMBE_DE_BOIS
+Il était sur la case 19
+et a fait 6 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 25
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] JACK_LE_BORGNE : ❤️ ❤️ ❤️ 🖤 🖤  (3/5)
+Tour n°15 - C'est au tour de : JACK_LE_BORGNE
+Il était sur la case 28
+et a fait 3 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 29
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] BILL_JAMBE_DE_BOIS : ❤️ ❤️ ❤️ ❤️ ❤️  (5/5)
+Tour n°16 - C'est au tour de : BILL_JAMBE_DE_BOIS
+Il était sur la case 25
+et a fait 10 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 25
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] JACK_LE_BORGNE : ❤️ ❤️ ❤️ 🖤 🖤  (3/5)
+Tour n°17 - C'est au tour de : JACK_LE_BORGNE
+Il était sur la case 29
+et a fait 11 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 20
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] BILL_JAMBE_DE_BOIS : ❤️ ❤️ ❤️ ❤️ ❤️  (5/5)
+Tour n°18 - C'est au tour de : BILL_JAMBE_DE_BOIS
+Il était sur la case 25
+et a fait 3 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 28
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] JACK_LE_BORGNE : ❤️ ❤️ ❤️ 🖤 🖤  (3/5)
+Tour n°19 - C'est au tour de : JACK_LE_BORGNE
+Il était sur la case 20
+et a fait 9 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 29
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] BILL_JAMBE_DE_BOIS : ❤️ ❤️ ❤️ ❤️ ❤️  (5/5)
+Tour n°20 - C'est au tour de : BILL_JAMBE_DE_BOIS
+Il était sur la case 28
+et a fait 7 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 25
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] JACK_LE_BORGNE : ❤️ ❤️ ❤️ 🖤 🖤  (3/5)
+Tour n°21 - C'est au tour de : JACK_LE_BORGNE
+Il était sur la case 29
+et a fait 8 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 23
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] BILL_JAMBE_DE_BOIS : ❤️ ❤️ ❤️ ❤️ ❤️  (5/5)
+Tour n°22 - C'est au tour de : BILL_JAMBE_DE_BOIS
+Il était sur la case 25
+et a fait 12 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 23
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] JACK_LE_BORGNE : ❤️ ❤️ ❤️ 🖤 🖤  (3/5)
+Tour n°23 - C'est au tour de : JACK_LE_BORGNE
+Il était sur la case 23
+et a fait 9 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 28
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] BILL_JAMBE_DE_BOIS : ❤️ ❤️ ❤️ ❤️ ❤️  (5/5)
+Tour n°24 - C'est au tour de : BILL_JAMBE_DE_BOIS
+Il était sur la case 23
+et a fait 4 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 27
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] JACK_LE_BORGNE : ❤️ ❤️ ❤️ 🖤 🖤  (3/5)
+Tour n°25 - C'est au tour de : JACK_LE_BORGNE
+Il était sur la case 28
+et a fait 9 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 23
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] BILL_JAMBE_DE_BOIS : ❤️ ❤️ ❤️ ❤️ ❤️  (5/5)
+Tour n°26 - C'est au tour de : BILL_JAMBE_DE_BOIS
+Il était sur la case 27
+et a fait 10 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 23
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] JACK_LE_BORGNE : ❤️ ❤️ ❤️ 🖤 🖤  (3/5)
+Tour n°27 - C'est au tour de : JACK_LE_BORGNE
+Il était sur la case 23
+et a fait 2 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 25
+-------------------------------------------
+
+> Appuyez sur [ENTRÉE] pour le tour suivant...
+
+[STATUT] BILL_JAMBE_DE_BOIS : ❤️ ❤️ ❤️ ❤️ ❤️  (5/5)
+Tour n°28 - C'est au tour de : BILL_JAMBE_DE_BOIS
+Il était sur la case 23
+et a fait 7 avec ses dés.
+Résultat du déplacement -> Nouvelle case : 30
+-------------------------------------------
+
+!!! LA PARTIE EST TERMINÉE !!!
+BILL_JAMBE_DE_BOIS a gagné la partie.

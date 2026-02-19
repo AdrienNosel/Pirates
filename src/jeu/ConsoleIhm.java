@@ -27,7 +27,7 @@ public class ConsoleIhm implements Ihm {
     public void afficherTour(int numTour, Joueur j, int posDepart, int deplacement, int posArrivee) {
         System.out.println("Tour n°" + numTour + " - C'est au tour de : " + j.getNom());
         System.out.println("Il était sur la case " + posDepart);
-        System.out.println("Il a fait " + deplacement + " avec ses dés.");
+        System.out.println("et a fait " + deplacement + " avec ses dés.");
         System.out.println("Résultat du déplacement -> Nouvelle case : " + posArrivee);
         System.out.println("-------------------------------------------");
     }
@@ -40,5 +40,19 @@ public class ConsoleIhm implements Ihm {
         } else {
             System.out.println("Match nul !");
         }
+    }
+    
+    @Override
+    public void afficherEvenement(String message) {
+        System.out.println(" > [SCÉNARIO] : " + message);
+    }
+
+    @Override
+    public void afficherStatutJoueur(Joueur j) {
+        String coeurs = "";
+        for (int i = 0; i < 5; i++) {
+            coeurs += (i < j.getPointsDeVie()) ? "❤️ " : "🖤 ";
+        }
+        System.out.println("[STATUT] " + j.getNom() + " : " + coeurs + " (" + j.getPointsDeVie() + "/5)");
     }
 }

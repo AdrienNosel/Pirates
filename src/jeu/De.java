@@ -7,11 +7,9 @@ public class De {
     private int valeur;
     private Random random = new Random();
 
-    public void lancer() {
+    public int lancer() {
         this.valeur = random.nextInt(NBFACES) + 1;
-    }
-    public int getValeur() {
-        return valeur;
+        return this.valeur;
     }
 }
 
